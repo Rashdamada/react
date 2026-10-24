@@ -141,6 +141,9 @@
     ],
     "resetMocks": true
   },
+  "resolutions": {
+    "**/shell-quote": "^1.9.0"
+  },
   "babel": {
     "presets": [
       "react-app"
