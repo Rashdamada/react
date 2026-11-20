@@ -66,6 +66,9 @@
   "devDependencies": {
     "@playwright/test": "^1.41.2"
   },
+  "resolutions": {
+    "shell-quote": "1.12.0"
+  },
   "scripts": {
     "predev": "cp -r ../../build/oss-experimental/* ./node_modules/",
     "prebuild": "cp -r ../../build/oss-experimental/* ./node_modules/",
